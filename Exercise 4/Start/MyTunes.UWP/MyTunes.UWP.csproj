@@ -11,7 +11,7 @@
     <AssemblyName>MyTunes.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -129,9 +129,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyTunes.Shared\MyTunes.Shared.csproj">
-      <Project>{03b1228d-b101-4139-ab4a-5bb87b8b4c0b}</Project>
-      <Name>MyTunes.Shared</Name>
+    <ProjectReference Include="..\MyTunes.NetStandard\MyTunes.NetStandard.csproj">
+      <Project>{3ce7f5a4-8fec-4040-a66b-288b2705a30e}</Project>
+      <Name>MyTunes.NetStandard</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
