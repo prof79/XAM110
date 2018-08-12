@@ -11,6 +11,8 @@ namespace MyTunes
 		{
 			base.OnCreate(bundle);
 
+            SongLoader.Loader = new StreamLoader(this);
+
 			var data = await SongLoader.Load();
 
 			ListAdapter = new ListAdapter<Song>() {
@@ -21,5 +23,3 @@ namespace MyTunes
 		}
 	}
 }
-
-

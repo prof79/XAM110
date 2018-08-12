@@ -17,6 +17,8 @@ namespace MyTunes
         {
             base.OnNavigatedTo(e);
 
+            SongLoader.Loader = new StreamLoader();
+
             this.DataContext = await SongLoader.Load();
         }
     }
